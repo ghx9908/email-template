@@ -1,5 +1,5 @@
 {
-  "name": "gulp",
+  "name": "fe-email-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-connect": "^5.7.0",
-    "gulp-mjml": "^4.0.2"
+    "gulp-mjml": "^4.0.2",
+    "shelljs": "^0.8.5",
+    "yargs-parser": "^21.1.1"
   }
 }

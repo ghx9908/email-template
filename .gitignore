@@ -21,6 +21,7 @@ stats.html
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea
+*static
 .DS_Store
 *.suo
 *.ntvs*
