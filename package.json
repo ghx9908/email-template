@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "gulp dev",
-    "build": "gulp build"
+    "build": "gulp build",
+    "send": "node send.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "gulp": "^4.0.2",
     "gulp-connect": "^5.7.0",
     "gulp-mjml": "^4.0.2",
+    "nodemailer": "^6.8.0",
     "shelljs": "^0.8.5",
     "yargs-parser": "^21.1.1"
   }
