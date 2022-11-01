@@ -29,7 +29,7 @@ gulp.task('html:build', async () => {
 // server任务，目录为dist，入口文件为dist/index.html，port 8080
 gulp.task('server', () => {
   connect.server({
-    root: './dist',
+    root: './static',
     port: 8080,
     livereload: true,
     open: true,

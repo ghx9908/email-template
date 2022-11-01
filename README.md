@@ -31,3 +31,9 @@ pnpm run build
 ```js
 pnpm run build --page=test  //test为src下面的mjml文件名称，无须后缀
 ```
+
+## 邮件模板测试
+
+```js
+pnpm run send  //配置信息修改根目录下的send.js文件
+```
